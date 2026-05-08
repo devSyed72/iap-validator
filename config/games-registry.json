@@ -1,0 +1,35 @@
+{
+  "games": {
+    "arcade-simulator-retro-games": {
+      "displayName": "Arcade Simulator: Retro Games",
+      "packageName": "com.zi.arcade.shop.supermarket.simulator",
+      "serviceAccountFile": "play-credentials.json",
+      "apiKeyHash": "$2a$10$wI1mDQv9V243DhsotdISSuyLbdqPk8surGZO9YcDvoy6ZgWwHhA9S",
+      "validProducts": [
+        "com.zi.arcade.shop.supermarket.simulator.100dollar",
+        "com.zi.arcade.shop.supermarket.simulator.500dollar",
+        "com.zi.arcade.shop.supermarket.simulator.1000dollar",
+        "com.zi.arcade.shop.supermarket.simulator.2500dollar",
+        "com.zi.arcade.shop.supermarket.simulator.7500dollar",
+        "com.zi.arcade.shop.supermarket.simulator.10000dollar",
+        "com.zi.arcade.shop.supermarket.simulator.100energy",
+        "com.zi.arcade.shop.supermarket.simulator.500energy",
+        "com.zi.arcade.shop.supermarket.simulator.1000energy",
+        "com.zi.arcade.shop.supermarket.simulator.2500energy",
+        "com.zi.arcade.shop.supermarket.simulator.5000energy",
+        "com.zi.arcade.shop.supermarket.simulator.10000energy",
+        "com.zi.arcade.shop.supermarket.simulator.removeads",
+        "com.zi.arcade.shop.supermarket.simulator.specialoffer"
+      ],
+      "settings": {
+        "cacheTimeout": 3600000,
+        "rateLimit": {
+          "requests": 100,
+          "window": 60000
+        },
+        "allowedIPs": []
+      },
+      "enabled": true
+    }
+  }
+}

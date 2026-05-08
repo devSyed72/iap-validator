@@ -1,0 +1,21 @@
+{
+  "name": "multi-game-iap-validator-server",
+  "version": "2.0.0",
+  "description": "Multi-game IAP validation server for Android with per-game service accounts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-key": "node generate-api-key.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

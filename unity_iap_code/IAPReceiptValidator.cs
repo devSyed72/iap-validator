@@ -9,7 +9,7 @@ using UnityEngine.Purchasing;
 public class IAPReceiptValidator : MonoBehaviour
 {
     // UPDATED: Your actual Cloud Run URL with correct endpoint
-    private const string CLOUD_RUN_VALIDATION_ENDPOINT = "https://iap-validator-mwkejk5xma-uc.a.run.app/api/v1/validate-purchase";
+    private const string CLOUD_RUN_VALIDATION_ENDPOINT = "https://iap-validator-700115340332.us-central1.run.app/api/v1/validate-purchase";
 
     // REQUIRED: Your API key and Game ID for authentication
     private const string API_KEY = "asrg_26231117484a66236e577252b04c48fe711d2ea1c1bc660093a57d025f2c6bfb";

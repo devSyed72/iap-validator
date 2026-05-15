@@ -52,12 +52,15 @@ app.post('/api/v1/validate-purchase',
                 parsedReceipt = validatorService.parseUnityReceipt(receipt);
             } catch (parseError) {
                 console.error(`Receipt parsing error for ${gameId}:`, parseError);
+                console.error(`[DEBUG] Raw receipt (first 500 chars): ${(receipt || '').slice(0, 500)}`);
                 return res.status(400).json({
                     isValid: false,
                     error: parseError.message,
                     processingTime: Date.now() - req.requestTime
                 });
             }
+            console.log(`[DEBUG] Parsed receipt - package: ${parsedReceipt.packageName} | productId: ${parsedReceipt.productId} | token length: ${(parsedReceipt.purchaseToken || '').length} | token head: ${(parsedReceipt.purchaseToken || '').slice(0, 20)}`);
+            console.log(`[DEBUG] Request body - productId: ${productId} | gameId: ${gameId}`);
 
             // Validate product and package
             if (parsedReceipt.productId !== productId) {

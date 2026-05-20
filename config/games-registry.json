@@ -30,6 +30,37 @@
         "allowedIPs": []
       },
       "enabled": true
+    },
+    "retro-video-market-simulator": {
+      "displayName": "Retro Video Market Simulator",
+      "packageName": "com.zi.retro.video.market.simulator",
+      "serviceAccountFile": "play-credentials.json",
+      "apiKeyHash": "$2a$10$y4lqPUdpFwXTNk8AGBJh9uSPZpPiIyoPPQGVt4nSs1DXyH1/NGnNe",
+      "validProducts": [
+        "com.zi.retro.video.market.simulator.100dollar",
+        "com.zi.retro.video.market.simulator.500dollar",
+        "com.zi.retro.video.market.simulator.1000dollar",
+        "com.zi.retro.video.market.simulator.2500dollar",
+        "com.zi.retro.video.market.simulator.7500dollar",
+        "com.zi.retro.video.market.simulator.10000dollar",
+        "com.zi.retro.video.market.simulator.100energy",
+        "com.zi.retro.video.market.simulator.500energy",
+        "com.zi.retro.video.market.simulator.1000energy",
+        "com.zi.retro.video.market.simulator.2500energy",
+        "com.zi.retro.video.market.simulator.5000energy",
+        "com.zi.retro.video.market.simulator.10000energy",
+        "com.zi.retro.video.market.simulator.removeads",
+        "com.zi.retro.video.market.simulator.specialoffer"
+      ],
+      "settings": {
+        "cacheTimeout": 3600000,
+        "rateLimit": {
+          "requests": 100,
+          "window": 60000
+        },
+        "allowedIPs": []
+      },
+      "enabled": true
     }
   }
 }

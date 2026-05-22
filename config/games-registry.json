@@ -61,6 +61,43 @@
         "allowedIPs": []
       },
       "enabled": true
+    },
+    "cashier-simulator-business-tycoon": {
+      "displayName": "Cashier Simulator Business Tycoon",
+      "packageName": "com.zi.cashier.simulator.business.tycoon",
+      "serviceAccountFile": "play-credentials.json",
+      "apiKeyHash": "$2a$10$5yUrqWKwJtgKWQy9V3dqhePxuDQ5EXnpYmRDO1weLM2snXKwIx95y",
+      "validProducts": [
+        "com.zi.cashier.simulator.business.tycoon.1100dollar",
+        "com.zi.cashier.simulator.business.tycoon.5500dollar",
+        "com.zi.cashier.simulator.business.tycoon.1050dollar",
+        "com.zi.cashier.simulator.business.tycoon.2550dollar",
+        "com.zi.cashier.simulator.business.tycoon.7450dollar",
+        "com.zi.cashier.simulator.business.tycoon.10500dollar",
+        "com.zi.cashier.simulator.business.tycoon.150energy",
+        "com.zi.cashier.simulator.business.tycoon.550energy",
+        "com.zi.cashier.simulator.business.tycoon.1050energy",
+        "com.zi.cashier.simulator.business.tycoon.2550energy",
+        "com.zi.cashier.simulator.business.tycoon.5100energy",
+        "com.zi.cashier.simulator.business.tycoon.10500energy",
+        "com.zi.cashier.simulator.business.tycoon.lavishpass",
+        "com.zi.cashier.simulator.business.tycoon.noads",
+        "com.zi.cashier.simulator.business.tycoon.vipremoveads",
+        "com.zi.cashier.simulator.business.tycoon.tipjarunlock",
+        "com.zi.cashier.simulator.business.tycoon.instantdelivery",
+        "com.zi.cashier.simulator.business.tycoon.rewardpack2",
+        "com.zi.cashier.simulator.business.tycoon.exclusiveoffer2",
+        "com.zi.cashier.simulator.business.tycoon.promooffer2"
+      ],
+      "settings": {
+        "cacheTimeout": 3600000,
+        "rateLimit": {
+          "requests": 100,
+          "window": 60000
+        },
+        "allowedIPs": []
+      },
+      "enabled": true
     }
   }
 }

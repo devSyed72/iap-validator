@@ -85,9 +85,9 @@
         "com.zi.cashier.simulator.business.tycoon.vipremoveads",
         "com.zi.cashier.simulator.business.tycoon.tipjarunlock",
         "com.zi.cashier.simulator.business.tycoon.instantdelivery",
-        "com.zi.cashier.simulator.business.tycoon.rewardpack2",
-        "com.zi.cashier.simulator.business.tycoon.exclusiveoffer2",
-        "com.zi.cashier.simulator.business.tycoon.promooffer2"
+        "com.zi.cashier.simulator.business.tycoon.rewardpack",
+        "com.zi.cashier.simulator.business.tycoon.exclusiveoffer",
+        "com.zi.cashier.simulator.business.tycoon.promooffer"
       ],
       "settings": {
         "cacheTimeout": 3600000,

@@ -1,3 +1,41 @@
 {
-  "games": {}
+  "games": {
+    "cooking-charm-food-games": {
+      "displayName": "Cooking Charm Food Games",
+      "packageName": "com.cooking.charm.food.games",
+      "serviceAccountFile": "play-credentials.json",
+      "apiKeyHash": "$2a$10$bSIM4OARbTtMSlrXifuU7eSex.ayg3LZ4OgWkIWQdo2lc2ymitlt6",
+      "validProducts": [
+        "com.cooking.charm.food.games.fortunecookie",
+        "com.cooking.charm.food.games.biscotticookie",
+        "com.cooking.charm.food.games.macaroncookie",
+        "com.cooking.charm.food.games.grandmacookie",
+        "com.cooking.charm.food.games.peanutcookie",
+        "com.cooking.charm.food.games.orio",
+        "com.cooking.charm.food.games.choclatechipoffer",
+        "com.cooking.charm.food.games.200gem",
+        "com.cooking.charm.food.games.500gem",
+        "com.cooking.charm.food.games.1100gem",
+        "com.cooking.charm.food.games.2300gem",
+        "com.cooking.charm.food.games.4600gem",
+        "com.cooking.charm.food.games.6500gem",
+        "com.cooking.charm.food.games.specialoffer01",
+        "com.cooking.charm.food.games.specialoffer02",
+        "com.cooking.charm.food.games.specialoffer03",
+        "com.cooking.charm.food.games.specialoffer04",
+        "com.cooking.charm.food.games.specialoffer05",
+        "com.cooking.charm.food.games.specialoffer06",
+        "com.cooking.charm.food.games.removeads"
+      ],
+      "settings": {
+        "cacheTimeout": 3600000,
+        "rateLimit": {
+          "requests": 100,
+          "window": 60000
+        },
+        "allowedIPs": []
+      },
+      "enabled": true
+    }
+  }
 }

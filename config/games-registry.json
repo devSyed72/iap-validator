@@ -1,25 +1,15 @@
 {
   "games": {
-    "arcade-simulator-retro-games": {
-      "displayName": "Arcade Simulator: Retro Games",
-      "packageName": "com.zi.arcade.shop.supermarket.simulator",
+    "puzzle-arrow-maze-sort-out": {
+      "displayName": "Puzzle Arrow Maze Sort Out",
+      "packageName": "com.cd.puzzle.arrow.maze.sort.out",
       "serviceAccountFile": "play-credentials.json",
-      "apiKeyHash": "$2a$10$wI1mDQv9V243DhsotdISSuyLbdqPk8surGZO9YcDvoy6ZgWwHhA9S",
+      "apiKeyHash": "$2a$10$2R3FwF7zlDMudfV0cfNhruCQi1Fo94fFf1YYS4s4.G87QCWjWafx2",
       "validProducts": [
-        "com.zi.arcade.shop.supermarket.simulator.100dollar",
-        "com.zi.arcade.shop.supermarket.simulator.500dollar",
-        "com.zi.arcade.shop.supermarket.simulator.1000dollar",
-        "com.zi.arcade.shop.supermarket.simulator.2500dollar",
-        "com.zi.arcade.shop.supermarket.simulator.7500dollar",
-        "com.zi.arcade.shop.supermarket.simulator.10000dollar",
-        "com.zi.arcade.shop.supermarket.simulator.100energy",
-        "com.zi.arcade.shop.supermarket.simulator.500energy",
-        "com.zi.arcade.shop.supermarket.simulator.1000energy",
-        "com.zi.arcade.shop.supermarket.simulator.2500energy",
-        "com.zi.arcade.shop.supermarket.simulator.5000energy",
-        "com.zi.arcade.shop.supermarket.simulator.10000energy",
-        "com.zi.arcade.shop.supermarket.simulator.removeads",
-        "com.zi.arcade.shop.supermarket.simulator.specialoffer"
+        "com.cd.puzzle.arrow.maze.sort.out.earlyunlockoffer",
+        "com.cd.puzzle.arrow.maze.sort.out.boosterpack",
+        "com.cd.puzzle.arrow.maze.sort.out.specialoffer",
+        "com.cd.puzzle.arrow.maze.sort.out.removeads"
       ],
       "settings": {
         "cacheTimeout": 3600000,
@@ -31,63 +21,20 @@
       },
       "enabled": true
     },
-    "retro-video-market-simulator": {
-      "displayName": "Retro Video Market Simulator",
-      "packageName": "com.zi.retro.video.market.simulator",
+    "sniper-shooter-animal-hunting": {
+      "displayName": "Sniper Shooter Animal Hunting",
+      "packageName": "com.cd.sniper.shooter.animal.hunting",
       "serviceAccountFile": "play-credentials.json",
-      "apiKeyHash": "$2a$10$y4lqPUdpFwXTNk8AGBJh9uSPZpPiIyoPPQGVt4nSs1DXyH1/NGnNe",
+      "apiKeyHash": "$2a$10$5KLE3Y3DBcxDWRJtCJM7Euqxdyx5i05VDUX9feOet.6yxECGzLFdy",
       "validProducts": [
-        "com.zi.retro.video.market.simulator.100dollar",
-        "com.zi.retro.video.market.simulator.500dollar",
-        "com.zi.retro.video.market.simulator.1000dollar",
-        "com.zi.retro.video.market.simulator.2500dollar",
-        "com.zi.retro.video.market.simulator.7500dollar",
-        "com.zi.retro.video.market.simulator.10000dollar",
-        "com.zi.retro.video.market.simulator.100energy",
-        "com.zi.retro.video.market.simulator.500energy",
-        "com.zi.retro.video.market.simulator.1000energy",
-        "com.zi.retro.video.market.simulator.2500energy",
-        "com.zi.retro.video.market.simulator.5000energy",
-        "com.zi.retro.video.market.simulator.10000energy",
-        "com.zi.retro.video.market.simulator.removeads",
-        "com.zi.retro.video.market.simulator.specialoffer"
-      ],
-      "settings": {
-        "cacheTimeout": 3600000,
-        "rateLimit": {
-          "requests": 100,
-          "window": 60000
-        },
-        "allowedIPs": []
-      },
-      "enabled": true
-    },
-    "cashier-simulator-business-tycoon": {
-      "displayName": "Cashier Simulator Business Tycoon",
-      "packageName": "com.zi.cashier.simulator.business.tycoon",
-      "serviceAccountFile": "play-credentials.json",
-      "apiKeyHash": "$2a$10$5yUrqWKwJtgKWQy9V3dqhePxuDQ5EXnpYmRDO1weLM2snXKwIx95y",
-      "validProducts": [
-        "com.zi.cashier.simulator.business.tycoon.1100dollar",
-        "com.zi.cashier.simulator.business.tycoon.5500dollar",
-        "com.zi.cashier.simulator.business.tycoon.1050dollar",
-        "com.zi.cashier.simulator.business.tycoon.2550dollar",
-        "com.zi.cashier.simulator.business.tycoon.7450dollar",
-        "com.zi.cashier.simulator.business.tycoon.10500dollar",
-        "com.zi.cashier.simulator.business.tycoon.150energy",
-        "com.zi.cashier.simulator.business.tycoon.550energy",
-        "com.zi.cashier.simulator.business.tycoon.1050energy",
-        "com.zi.cashier.simulator.business.tycoon.2550energy",
-        "com.zi.cashier.simulator.business.tycoon.5100energy",
-        "com.zi.cashier.simulator.business.tycoon.10500energy",
-        "com.zi.cashier.simulator.business.tycoon.lavishpass",
-        "com.zi.cashier.simulator.business.tycoon.noads",
-        "com.zi.cashier.simulator.business.tycoon.vipremoveads",
-        "com.zi.cashier.simulator.business.tycoon.tipjarunlock",
-        "com.zi.cashier.simulator.business.tycoon.instantdelivery",
-        "com.zi.cashier.simulator.business.tycoon.rewardpack",
-        "com.zi.cashier.simulator.business.tycoon.exclusiveoffer",
-        "com.zi.cashier.simulator.business.tycoon.promooffer"
+        "com.cd.sniper.shooter.animal.hunting.specialoffer",
+        "com.cd.sniper.shooter.animal.hunting.500000coins",
+        "com.cd.sniper.shooter.animal.hunting.100000coins",
+        "com.cd.sniper.shooter.animal.hunting.50000coins",
+        "com.cd.sniper.shooter.animal.hunting.15000coins",
+        "com.cd.sniper.shooter.animal.hunting.5000coins",
+        "com.cd.sniper.shooter.animal.hunting.1500coins",
+        "com.cd.sniper.shooter.animal.hunting.removeads"
       ],
       "settings": {
         "cacheTimeout": 3600000,

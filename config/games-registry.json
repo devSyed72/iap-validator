@@ -98,6 +98,31 @@
         "allowedIPs": []
       },
       "enabled": true
+    },
+    "crazy-busjam-traffic-sort-puzzle": {
+      "displayName": "Crazy Busjam Traffic Sort Puzzle",
+      "packageName": "com.zi.crazy.busjam.traffic.sort.puzzle",
+      "serviceAccountFile": "play-credentials.json",
+      "apiKeyHash": "$2a$10$pLFHwOjoFKXtRJq5chWG6uT/mNpan4j5eSRboLSBulw7n1GAYnCPq",
+      "validProducts": [
+        "com.zi.crazy.busjam.traffic.sort.puzzle.specialoffer",
+        "com.zi.crazy.busjam.traffic.sort.puzzle.removeads",
+        "com.zi.crazy.busjam.traffic.sort.puzzle.1000coins",
+        "com.zi.crazy.busjam.traffic.sort.puzzle.5000coins",
+        "com.zi.crazy.busjam.traffic.sort.puzzle.10000coins",
+        "com.zi.crazy.busjam.traffic.sort.puzzle.25000coins",
+        "com.zi.crazy.busjam.traffic.sort.puzzle.50000coins",
+        "com.zi.crazy.busjam.traffic.sort.puzzle.100000coins"
+      ],
+      "settings": {
+        "cacheTimeout": 3600000,
+        "rateLimit": {
+          "requests": 100,
+          "window": 60000
+        },
+        "allowedIPs": []
+      },
+      "enabled": true
     }
   }
 }

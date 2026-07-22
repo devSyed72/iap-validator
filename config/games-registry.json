@@ -36,6 +36,31 @@
         "allowedIPs": []
       },
       "enabled": true
+    },
+    "cannon-block-blast-games": {
+      "displayName": "Cannon Block Blast Games",
+      "packageName": "com.ff.cannon.block.blast.games",
+      "serviceAccountFile": "play-credentials.json",
+      "apiKeyHash": "$2a$10$Xki0T9fPvlvPuFm0JimZgOIgwtTi1RvWf6bzg/YA/KRmwVCwu0UPy",
+      "validProducts": [
+        "com.ff.cannon.block.blast.games.removeads",
+        "com.ff.cannon.block.blast.games.specialoffer",
+        "com.ff.cannon.block.blast.games.1000coins",
+        "com.ff.cannon.block.blast.games.5000coins",
+        "com.ff.cannon.block.blast.games.10000coins",
+        "com.ff.cannon.block.blast.games.25000coins",
+        "com.ff.cannon.block.blast.games.50000coins",
+        "com.ff.cannon.block.blast.games.100000coins"
+      ],
+      "settings": {
+        "cacheTimeout": 3600000,
+        "rateLimit": {
+          "requests": 100,
+          "window": 60000
+        },
+        "allowedIPs": []
+      },
+      "enabled": true
     }
   }
 }

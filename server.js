@@ -91,7 +91,7 @@ app.post('/api/v1/validate-purchase',
             const validationResult = await validatorService.validatePurchase(gameConfig, purchaseData);
             validationResult.processingTime = Date.now() - req.requestTime;
 
-            console.log(`Validation complete - Game: ${gameId}, Valid: ${validationResult.isValid}, Time: ${validationResult.processingTime}ms`);
+            console.log(`Validation complete - Game: ${gameId}, User: ${userId}, Product: ${productId}, Valid: ${validationResult.isValid}, OrderId: ${validationResult.transactionId || "none"}, Time: ${validationResult.processingTime}ms`);
 
             res.json(validationResult);
         } catch (error) {

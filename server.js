@@ -1,3 +1,4 @@
+const crypto = require('crypto');
 const express = require('express');
 const cors = require('cors');
 const GameValidatorService = require('./lib/gameValidatorService');
@@ -62,8 +63,11 @@ app.post('/api/v1/validate-purchase',
             console.log(`[DEBUG] Parsed receipt - package: ${parsedReceipt.packageName} | productId: ${parsedReceipt.productId} | token length: ${(parsedReceipt.purchaseToken || '').length} | token head: ${(parsedReceipt.purchaseToken || '').slice(0, 20)}`);
             console.log(`[DEBUG] Request body - productId: ${productId} | gameId: ${gameId}`);
 
+            const receiptTokenHash = crypto.createHash("sha256").update(parsedReceipt.purchaseToken || "").digest("hex");
+
             // Validate product and package
             if (parsedReceipt.productId !== productId) {
+                console.warn(`Validation REJECTED - Game: ${gameId}, User: ${userId}, Reason: Product ID mismatch, RequestProduct: ${productId}, ReceiptProduct: ${parsedReceipt.productId}, OrderId: ${parsedReceipt.orderId || "none"}, TokenHash: ${receiptTokenHash}`);
                 return res.status(400).json({
                     isValid: false,
                     error: 'Product ID mismatch',
@@ -72,6 +76,7 @@ app.post('/api/v1/validate-purchase',
             }
 
             if (parsedReceipt.packageName !== gameConfig.packageName) {
+                console.warn(`Validation REJECTED - Game: ${gameId}, User: ${userId}, Reason: Package name mismatch, ExpectedPackage: ${gameConfig.packageName}, ReceiptPackage: ${parsedReceipt.packageName}, Product: ${productId}, OrderId: ${parsedReceipt.orderId || "none"}, TokenHash: ${receiptTokenHash}`);
                 return res.status(400).json({
                     isValid: false,
                     error: 'Package name mismatch',

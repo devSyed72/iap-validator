@@ -19,7 +19,8 @@
         "com.zi.arcade.shop.supermarket.simulator.5000energy",
         "com.zi.arcade.shop.supermarket.simulator.10000energy",
         "com.zi.arcade.shop.supermarket.simulator.removeads",
-        "com.zi.arcade.shop.supermarket.simulator.specialoffer"
+        "com.zi.arcade.shop.supermarket.simulator.specialoffer",
+        "com.zi.arcade.shop.supermarket.simulator.unlocktipjar"
       ],
       "settings": {
         "cacheTimeout": 3600000,
